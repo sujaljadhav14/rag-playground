@@ -1,3 +1,7 @@
+# Base RAG (Version 1) & Agentic RAG (Version 2) Unified Requirements
+# Use `uv pip install -r requirements.txt` or `pip install -r requirements.txt` to install.
+
+# Base dependencies
 langchain>=0.1.0
 langchain-community>=0.0.10
 langchain-text-splitters
@@ -8,3 +12,11 @@ pypdf
 pymupdf
 ipywidgets
 jupyter
+ipykernel
+
+# Agentic RAG (Version 2) specific dependencies
+langgraph
+langchain-openai
+python-dotenv
+faiss-cpu
+numpy

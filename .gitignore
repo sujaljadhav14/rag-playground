@@ -13,8 +13,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Vector Store (Chroma DB local cache/persistent directory)
-data/vector_store/
+# Environment Variables
+.env
+*.env
+**/.env
+**/*.env
+
+# Vector Stores (Chroma, FAISS caches/indices)
+**/vector_store/
+**/faiss_store/
 
 # IDE / Editor Settings
 .vscode/
